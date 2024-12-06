@@ -98,6 +98,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
+```bash
 src/
 ├── app.controller.spec.ts
 ├── app.controller.ts
@@ -126,3 +127,5 @@ src/
 └── shared/
     ├── utils/
     │   ├── zodiac.util.ts
+
+```
