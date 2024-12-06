@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  backend:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
